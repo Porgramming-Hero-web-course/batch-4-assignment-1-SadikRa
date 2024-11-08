@@ -11,6 +11,7 @@ async: used to define an asynchronous function. When a function is marked as asy
 
 await: pauses the execution of the async function and waits for the promise to resolve or reject. It can only be used inside an async function.
 
+
  Here an example:
   async function fetchData(): Promise<string> {
   return new Promise((resolve) => {
